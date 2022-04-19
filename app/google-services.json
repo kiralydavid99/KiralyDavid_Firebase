@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "513718810120",
+    "firebase_url": "https://fir-dolgozat-92a1d-default-rtdb.firebaseio.com",
+    "project_id": "fir-dolgozat-92a1d",
+    "storage_bucket": "fir-dolgozat-92a1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513718810120:android:464b9595e1b2da6cbe83bd",
+        "android_client_info": {
+          "package_name": "com.kiralydavid.kiralydavid_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513718810120-q5nealv3dthakjn2cuteernpjm363uv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlhZBMIQIaWvQPKQmQrNEtMpyEavR_hPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513718810120-q5nealv3dthakjn2cuteernpjm363uv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
