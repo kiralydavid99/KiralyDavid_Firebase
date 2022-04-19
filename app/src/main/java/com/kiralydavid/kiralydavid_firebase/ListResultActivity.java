@@ -49,6 +49,7 @@ public class ListResultActivity extends AppCompatActivity {
     public void init(){
         listViewOrszag = findViewById(R.id.listViewOrszag);
         buttonVissza = findViewById(R.id.buttonVissza);
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Városok");
 
     }
 }
