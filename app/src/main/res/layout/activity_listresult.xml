@@ -7,10 +7,10 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <TextView
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewOrszag"/>
+        android:id="@+id/listViewOrszag"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
