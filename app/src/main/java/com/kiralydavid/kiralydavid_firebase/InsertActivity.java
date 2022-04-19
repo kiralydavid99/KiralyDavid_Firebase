@@ -2,6 +2,7 @@ package com.kiralydavid.kiralydavid_firebase;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
 
 public class InsertActivity extends AppCompatActivity {
     private EditText editTextNev, editTextOrszag, editTextLakossag;
@@ -61,6 +63,6 @@ public class InsertActivity extends AppCompatActivity {
         editTextLakossag = findViewById(R.id.editTextLakossag);
         felvetelButtonClick = findViewById(R.id.felvetelButtonClick);
         visszaButton = findViewById(R.id.visszaButtonClick);
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("Városok");
+
     }
 }
