@@ -14,12 +14,15 @@ import android.widget.ListView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
+
 public class ListResultActivity extends AppCompatActivity {
 
     private ListView listViewOrszag;
     private Button buttonVissza;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
+    private ArrayList<String> orszagok = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +40,8 @@ public class ListResultActivity extends AppCompatActivity {
                 finish();
             }
         });
+        databaseReference=FirebaseDatabase.getInstance().getReference("orszagok");
+        listViewOrszag=(ListView) findViewById(R.id.listViewOrszag);
 
     }
 
