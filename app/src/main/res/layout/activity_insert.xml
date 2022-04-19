@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:hint="Név"
         android:id="@+id/editTextNev"
+        android:inputType="text"
 
         />
     <EditText
@@ -19,6 +20,7 @@
         android:layout_height="wrap_content"
         android:hint="Ország"
         android:id="@+id/editTextOrszag"
+        android:inputType="text"
 
         />
     <EditText
@@ -27,6 +29,7 @@
         android:hint="Lakosság"
         android:inputType="number"
         android:id="@+id/editTextLakossag"
+
 
         />
     <Button
