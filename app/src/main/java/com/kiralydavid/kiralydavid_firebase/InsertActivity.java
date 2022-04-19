@@ -61,5 +61,6 @@ public class InsertActivity extends AppCompatActivity {
         editTextLakossag = findViewById(R.id.editTextLakossag);
         felvetelButtonClick = findViewById(R.id.felvetelButtonClick);
         visszaButton = findViewById(R.id.visszaButtonClick);
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Városok");
     }
 }
